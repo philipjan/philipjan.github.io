@@ -64,17 +64,6 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
       transform: translateY(0);
     }
   }
-
-  /* Carousel interaction zone - prevent parent link hover effects */
-  .carousel-interaction-zone {
-    pointer-events: none;
-  }
-
-  /* Re-enable pointer events for interactive elements */
-  .carousel-interaction-zone button,
-  .carousel-interaction-zone button * {
-    pointer-events: auto;
-  }
 </style>
 
 {
@@ -114,9 +103,10 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                           ? "hover:bg-slate-750 hover:shadow-xl hover:border-slate-600 hover:-translate-y-1"
                           : ""
                       }`}
+                      data-has-carousel={hasImages ? "true" : "false"}
                     >
                       {project.link && (
-                        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center bg-slate-950 rounded-full text-white transition-all duration-300 group-hover:bg-slate-800">
+                        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center bg-slate-950 rounded-full text-white transition-all duration-300 group-hover:bg-slate-800 pointer-events-none">
                           <svg
                             class="w-4 h-4 sm:w-4.5 sm:h-4.5 md:w-5 md:h-5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                             fill="none"
@@ -153,18 +143,14 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                         </p>
 
                         {hasImages && (
-                          <div class={`carousel-container pt-4 ${project.link ? "carousel-interaction-zone" : ""}`}>
+                          <div class="carousel-container pt-4 carousel-zone" data-project-index={index}>
                             <div class="carousel-scroll" data-project-index={index}>
                               {project.images.map((image, imgIndex) => (
                                 <div class="carousel-item">
                                   <button
                                     type="button"
-                                    onclick={(e) => {
-                                      e.stopPropagation();
-                                      e.preventDefault();
-                                      document.getElementById(`modal-${index}-${imgIndex}`)?.classList.remove('hidden');
-                                    }}
-                                    class="relative group/img cursor-pointer"
+                                    class="relative group/img cursor-pointer carousel-btn"
+                                    data-modal-id={`modal-${index}-${imgIndex}`}
                                   >
                                     <img
                                       src={image}
@@ -190,22 +176,18 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 
                                   <div
                                     id={`modal-${index}-${imgIndex}`}
-                                    class="hidden fixed inset-0 z-50 flex items-end sm:items-center justify-center"
-                                    onclick={(e) => {
-                                      if (e.target === e.currentTarget) {
-                                        e.currentTarget.classList.add('hidden');
-                                      }
-                                    }}
+                                    class="hidden fixed inset-0 z-50 flex items-end sm:items-center justify-center modal-container"
                                   >
-                                    <div class="modal-overlay fixed inset-0 bg-black/60" />
+                                    <div class="modal-overlay fixed inset-0 bg-black/60" onclick={(e) => {
+                                      if (e.target === e.currentTarget) {
+                                        e.currentTarget.closest('.modal-container')?.classList.add('hidden');
+                                      }
+                                    }} />
                                     <div class="modal-sheet relative bg-slate-800 rounded-t-2xl sm:rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-auto border border-slate-700">
                                       <button
                                         type="button"
-                                        onclick={(e) => {
-                                          e.stopPropagation();
-                                          document.getElementById(`modal-${index}-${imgIndex}`)?.classList.add('hidden');
-                                        }}
-                                        class="absolute top-4 right-4 z-10 w-8 h-8 flex items-center justify-center bg-slate-700 hover:bg-slate-600 rounded-full text-slate-200 transition-all duration-300"
+                                        class="absolute top-4 right-4 z-10 w-8 h-8 flex items-center justify-center bg-slate-700 hover:bg-slate-600 rounded-full text-slate-200 transition-all duration-300 modal-close-btn"
+                                        data-modal-id={`modal-${index}-${imgIndex}`}
                                       >
                                         <svg
                                           class="w-5 h-5"
@@ -261,3 +243,52 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
     </section>
   )
 }
+
+<script>
+  // Handle carousel image clicks and modal interactions
+  document.querySelectorAll('.carousel-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const modalId = btn.getAttribute('data-modal-id');
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.classList.remove('hidden');
+      }
+    });
+  });
+
+  // Handle modal close button clicks
+  document.querySelectorAll('.modal-close-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const modalId = btn.getAttribute('data-modal-id');
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.classList.add('hidden');
+      }
+    });
+  });
+
+  // Handle link hover state for carousel zones
+  document.querySelectorAll('.carousel-zone').forEach(carousel => {
+    const parentLink = carousel.closest('a');
+    
+    if (parentLink) {
+      carousel.addEventListener('mouseenter', () => {
+        parentLink.classList.remove('hover:bg-slate-750', 'hover:shadow-xl', 'hover:border-slate-600', 'hover:-translate-y-1');
+      });
+
+      carousel.addEventListener('mouseleave', () => {
+        parentLink.classList.add('hover:bg-slate-750', 'hover:shadow-xl', 'hover:border-slate-600', 'hover:-translate-y-1');
+      });
+
+      // Prevent link navigation when clicking carousel
+      carousel.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+      });
+    }
+  });
+</script>
