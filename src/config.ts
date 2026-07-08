@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Philip Jan Baruis",
   title: "Senior Android Engineer",
   description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#0EA5E9",
+  accentColor: "#818CF8",
   social: {
     email: "philipjanbaruis@gmail.com",
     linkedin: "https://www.linkedin.com/in/philipjanb/",
