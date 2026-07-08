@@ -24,6 +24,17 @@ import "../styles/global.css";
       rel="stylesheet"
     />
     <title>{siteConfig.name} - {siteConfig.title}</title>
+    <script is:inline>
+      // Randomly select and set background SVG on page load
+      const svgList = ['/android.svg', '/kotlin.svg', '/favicon.svg'];
+      const randomSvg = svgList[Math.floor(Math.random() * svgList.length)];
+      document.documentElement.style.setProperty('--bg-svg', `url('${randomSvg}')`);
+      
+      // Apply the background SVG to body::before
+      const style = document.createElement('style');
+      style.textContent = `body::before { background-image: url('${randomSvg}'); }`;
+      document.head.appendChild(style);
+    </script>
   </head>
   <body>
     <Header />
