@@ -14,12 +14,12 @@ export const siteConfig = {
   skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Model Context Protocol (MCP)", "Github Copilot (Agents/Skills/CLI)", "Local LLM", "LaunchDarkly", "Gradle"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Easy Order (Customer)",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-      images: ["sample1.jpeg", "sample1.jpeg"],
+        "Used by restaurants (Japan), customers inside the establishment directly placing orders on the app and being acknowledged and processed. Users are able to see the order status until the serving of foods.",
+      link: "https://easy-order.jp/",
+      skills: ["Retrofit", "Kotlin", "Coroutines", "REST Api"],
+      images: ["easyorder1.png", "easyorder2.png", "easyorder3.png", "easyorder4.png", "easyorder5.png"],
     },
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
