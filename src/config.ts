@@ -40,33 +40,54 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Quantrics Enterprises Inc.",
+      title: "Senior Android Developer",
+      dateRange: "July 2023 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Designed a secure Autopay flow and deep-link payment pipeline deployed to thousands of active users across North America.",
+        "Integrated third-party automated ID verification service for credit/debit transactions, deprecating manual form flows to optimize checkout velocity.",
+        "Managed end-to-end Google Play Store release activities with Release Train Engineers and App Architects; authored Post-Mortem RCAs for complex regression defects.",
+        "Developed custom GitHub Copilot Agents and Skills to automate redundant developer workflows, including automated code review compliance and a code-to-markdown summary engine for Jira/GitLab pull requests.",
+        "Acted as interim technical lead to coordinate, mentor, and delegate tasks to junior and mid-level developers during crucial agile sprint ceremonies.",
+        "Engineered an internal Model Context Protocol (MCP) server pipeline to bridge FIgma design tokens to Android Studio, automating Jetpack Compose UI component generation."
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Baxta",
+      title: "Android Developer",
+      dateRange: "Jun 2022 - May 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Overhauled the core application splash screen and configured startup dependencies to optimize application launch times and initial performance boundaries.",
+        "Orchestrated MS App Center CI/CD for faster test build submission to testers, and play store",
+        "Developed the core Discover Module geolocation placement tracking and interactive detail views.",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Tawk.to",
+      title: "Android Developer",
+      dateRange: "April 2020 - May 2022",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Successfully migrated core real-time communication framework from legacy MQTT protocol to highly concurrent WebSockets.",
+        "Engineered a comprehensive navigation UI overhaul and spearheaded development of the core Administration Section module.",
+        "Eliminated unexpected runtime logical failures by introducing robust testing coverage and deep scenario bug debugging.",
+      ],
+    },
+    {
+      company: "CAPSL",
+      title: "Android Developer",
+      dateRange: "December 2019 - February 2020",
+      bullets: [
+        "Implemented a high-performance Round Robin Tournament matchmaking algorithm handling sequence tracking and leaderboard standings features."
+      ],
+    },
+    {
+      company: "Bywave Web and Mobile Apps",
+      title: "Android Developer",
+      dateRange: "June 2017 - December 2019",
+      bullets: [
+        "Unit-testing code for robustness, including edge cases, usability, and general reliability before releasing to production.",
+        "Enhanced application reverse-engineering protection by implementing code obfuscation to safeguard sensitive code assets.",
+        "Partnered with cross-functional product teams to design, iterate, and ship features within scalable production pipelines.",
       ],
     },
   ],
