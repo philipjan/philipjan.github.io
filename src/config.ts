@@ -14,12 +14,12 @@ export const siteConfig = {
   skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Model Context Protocol (MCP)", "Github Copilot (Agents/Skills/CLI)", "Local LLM", "LaunchDarkly", "Gradle"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Easy Order (Customer)",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-      images: ["/sample1.jpeg", "/sample1.jpeg"],
+        "Used by restaurants (Japan), customers inside the establishment directly placing orders on the app and being acknowledged and processed. Users are able to see the order status until the serving of foods.",
+      link: "https://easy-order.jp/",
+      skills: ["Retrofit", "Kotlin", "Coroutines", "REST Api"],
+      images: ["easyorder1.png", "easyorder2.png", "easyorder3.png", "easyorder4.png", "easyorder5.png"],
     },
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
@@ -27,7 +27,7 @@ export const siteConfig = {
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
       link: "https://fullstackextensions.com/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
-      images: ["/sample1.jpeg"],
+      images: ["sample1.jpeg"],
     },
     {
       name: "ExtensionKit",
@@ -35,7 +35,7 @@ export const siteConfig = {
         "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
-      images: ["/sample1.jpeg", "/sample1.jpeg", "/sample1.jpeg"],
+      images: ["sample1.jpeg", "sample1.jpeg", "sample1.jpeg"],
     },
   ],
   experience: [
@@ -88,6 +88,15 @@ export const siteConfig = {
         "Unit-testing code for robustness, including edge cases, usability, and general reliability before releasing to production.",
         "Enhanced application reverse-engineering protection by implementing code obfuscation to safeguard sensitive code assets.",
         "Partnered with cross-functional product teams to design, iterate, and ship features within scalable production pipelines.",
+      ],
+    },
+    {
+      company: "Sutherland | LogimineAsia | PJ Lhuillier",
+      title: "Technical & Software Support Roles",
+      dateRange: "2015 - 2017",
+      bullets: [
+        "Consolidating engineering support roles across Sutherland, LogimineAsia, and PJ Lhuillier",
+        "Managed Linux test environments, built automated DB backup scripts, and resolved high-volume Tier-3 infrastructure queues.",
       ],
     },
   ],
