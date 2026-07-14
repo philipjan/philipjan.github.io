@@ -90,6 +90,15 @@ export const siteConfig = {
         "Partnered with cross-functional product teams to design, iterate, and ship features within scalable production pipelines.",
       ],
     },
+    {
+      company: "Sutherland | LogimineAsia | PJ Lhuillier",
+      title: "Technical & Software Support Roles",
+      dateRange: "2015 - 2017",
+      bullets: [
+        "Consolidating engineering support roles across Sutherland, LogimineAsia, and PJ Lhuillier",
+        "Managed Linux test environments, built automated DB backup scripts, and resolved high-volume Tier-3 infrastructure queues.",
+      ],
+    },
   ],
   education: [
     {
