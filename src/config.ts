@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Philip Jan Baruis",
   title: "Senior Android Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  description: "Portfolio website of Philip Jan Baruis",
   accentColor: "#818CF8",
   social: {
     email: "philipjanbaruis@gmail.com",
@@ -18,7 +18,7 @@ export const siteConfig = {
       description:
         "Used by restaurants (Japan), customers inside the establishment directly placing orders on the app and being acknowledged and processed. Users are able to see the order status until the serving of foods.",
       link: "https://easy-order.jp/",
-      skills: ["Retrofit", "Kotlin", "Coroutines", "REST Api"],
+      skills: ["Retrofit", "Kotlin", "Coroutines", "REST Api", "Google Play Console"],
 
     },
     {
@@ -32,7 +32,7 @@ export const siteConfig = {
     {
       name: "ExtensionKit",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+        "",
       link: "https://extensionkit.io/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
 
@@ -42,14 +42,10 @@ export const siteConfig = {
     {
       company: "Quantrics Enterprises Inc.",
       title: "Senior Android Developer",
-      dateRange: "July 2023 - Present",
+      dateRange: "July 2023 - July 2026",
       bullets: [
-        "Designed a secure Autopay flow and deep-link payment pipeline deployed to thousands of active users across North America.",
-        "Integrated third-party automated ID verification service for credit/debit transactions, deprecating manual form flows to optimize checkout velocity.",
-        "Managed end-to-end Google Play Store release activities with Release Train Engineers and App Architects; authored Post-Mortem RCAs for complex regression defects.",
-        "Developed custom GitHub Copilot Agents and Skills to automate redundant developer workflows, including automated code review compliance and a code-to-markdown summary engine for Jira/GitLab pull requests.",
-        "Acted as interim technical lead to coordinate, mentor, and delegate tasks to junior and mid-level developers during crucial agile sprint ceremonies.",
-        "Engineered an internal Model Context Protocol (MCP) server pipeline to bridge FIgma design tokens to Android Studio, automating Jetpack Compose UI component generation."
+        "AI-Native Tooling: Automated redundant development workflows by building custom MCP server integrations, featuring a Figma-to-Android Studio pipeline for UI generation and a GitLab bridge for GitHub Copilot.",
+        "High-Scale Payments: Designed a secure Autopay flow and deep-link payment pipeline deployed to thousands of North American users, deprecating manual form flows via automated ID verification to optimize checkout velocity.",
       ],
     },
     {
@@ -57,9 +53,7 @@ export const siteConfig = {
       title: "Android Developer",
       dateRange: "Jun 2022 - May 2023",
       bullets: [
-        "Overhauled the core application splash screen and configured startup dependencies to optimize application launch times and initial performance boundaries.",
-        "Orchestrated MS App Center CI/CD for faster test build submission to testers, and play store",
-        "Developed the core Discover Module geolocation placement tracking and interactive detail views.",
+        "Performance & UI/UX: Overhauled the core application splash screen and startup dependencies to strictly optimize launch times, while developing the interactive detail views for the core Discover Module.",
       ],
     },
     {
@@ -67,38 +61,15 @@ export const siteConfig = {
       title: "Android Developer",
       dateRange: "April 2020 - May 2022",
       bullets: [
-        "Successfully migrated core real-time communication framework from legacy MQTT protocol to highly concurrent WebSockets.",
-        "Engineered a comprehensive navigation UI overhaul and spearheaded development of the core Administration Section module.",
-        "Eliminated unexpected runtime logical failures by introducing robust testing coverage and deep scenario bug debugging.",
+        "Protocol Migration & Navigation: Successfully migrated the core real-time communication framework from legacy MQTT to highly concurrent WebSockets, and engineered a comprehensive navigation UI overhaul.",
       ],
     },
     {
-      company: "CAPSL",
-      title: "Android Developer",
-      dateRange: "December 2019 - February 2020",
-      bullets: [
-        "Implemented a high-performance Round Robin Tournament matchmaking algorithm handling sequence tracking and leaderboard standings features."
-      ],
-    },
-    {
-      company: "Bywave Web and Mobile Apps",
-      title: "Android Developer",
-      dateRange: "June 2017 - December 2019",
-      bullets: [
-        "Unit-testing code for robustness, including edge cases, usability, and general reliability before releasing to production.",
-        "Enhanced application reverse-engineering protection by implementing code obfuscation to safeguard sensitive code assets.",
-        "Partnered with cross-functional product teams to design, iterate, and ship features within scalable production pipelines.",
-      ],
-    },
-    {
-      company: "Sutherland | LogimineAsia | PJ Lhuillier",
-      title: "Technical & Software Support Roles",
-      dateRange: "2015 - 2017",
-      bullets: [
-        "Consolidating engineering support roles across Sutherland, LogimineAsia, and PJ Lhuillier",
-        "Managed Linux test environments, built automated DB backup scripts, and resolved high-volume Tier-3 infrastructure queues.",
-      ],
-    },
+      company: "Earlier Tech Roles (CAPSL, Bywave, Sutherland, LogimineAsia, PJ Lhuillier)",
+      title: "Android Developer | Technical, Software Support",
+      dateRange: "2015 - 2020",
+      bullets: [],
+    }
   ],
   education: [
     {
