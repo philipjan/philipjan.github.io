@@ -1,8 +1,9 @@
 export const siteConfig = {
   name: "Philip Jan Baruis",
-  title: "Senior Android Engineer",
+  title: "Senior Android Engineer ・ Philippines",
   description: "Portfolio website of Philip Jan Baruis",
   accentColor: "#818CF8",
+  cvFile: "cv_july_8_2026_9_14pm .docx.pdf",
   social: {
     email: "philipjanbaruis@gmail.com",
     linkedin: "https://www.linkedin.com/in/philipjanb/",
