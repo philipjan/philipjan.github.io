@@ -19,7 +19,7 @@ export const siteConfig = {
         "Used by restaurants (Japan), customers inside the establishment directly placing orders on the app and being acknowledged and processed. Users are able to see the order status until the serving of foods.",
       link: "https://easy-order.jp/",
       skills: ["Retrofit", "Kotlin", "Coroutines", "REST Api"],
-      images: ["easyorder1.png", "easyorder2.png", "easyorder3.png", "easyorder4.png", "easyorder5.png"],
+
     },
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
@@ -27,7 +27,7 @@ export const siteConfig = {
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
       link: "https://fullstackextensions.com/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
-      images: ["sample1.jpeg"],
+
     },
     {
       name: "ExtensionKit",
@@ -35,7 +35,7 @@ export const siteConfig = {
         "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
-      images: ["sample1.jpeg", "sample1.jpeg", "sample1.jpeg"],
+
     },
   ],
   experience: [
