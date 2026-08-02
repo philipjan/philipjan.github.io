@@ -10,31 +10,46 @@ export const siteConfig = {
     github: "https://github.com/philipjan",
   },
   aboutMe:
-    "Senior Android Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment integrations, and code modernization from Java to Kotlin. Proven track record of accelerating development velocity by building custom agentic AI tools and protocol-level pipelines.",
-  skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Model Context Protocol (MCP)", "Github Copilot (Agents/Skills/CLI)", "Local LLM", "LaunchDarkly", "Gradle"],
+    "Senior Android Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment pipelines, and inclusive, accessible (a11y) UI design. I have a proven track record of accelerating development velocity and optimizing technical workflows—from automating UI component generation via custom Model Context Protocol (MCP) servers, to building robust GitHub Copilot agents that streamline code review compliance.",
+  skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux, Mac)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Github Copilot (Agents/Skills/CLI/MCP)", "Local LLM Integration", "LaunchDarkly", "Gradle"],
   projects: [
     {
-      name: "Easy Order (Customer)",
+      name: "Preauth Autopay Pipeline",
       description:
-        "Used by restaurants (Japan), customers inside the establishment directly placing orders on the app and being acknowledged and processed. Users are able to see the order status until the serving of foods.",
-      link: "https://easy-order.jp/",
-      skills: ["Retrofit", "Kotlin", "Coroutines", "REST Api", "Google Play Console"],
+        "Secure payment integration and identification verification built with AI-native pipelines and engineered for complete screen-reader and keyboard accessibility.",
+      link: "https://play.google.com/store/apps/details?id=ca.bell.selfserve.mybellmobile&hl=en ",
+      skills: ["Copilot AI Tooling (Agents, Skills, MCP)", "Kotlin", "Jetpack Components", "Coroutines", "Analytics Integration", "Deeplinks", "Third Party Integration", "Android Accessibility (a11y / TalkBack)"],
 
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "FIFA World Cup 2026 Platform",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "High-scale tournament stats & offer platform built with inclusive UI design, TalkBack voiceover support, and dynamic navigation.",
+      link: "https://play.google.com/store/apps/details?id=ca.bell.selfserve.mybellmobile&hl=en",
+      skills: ["Jetpack Components", "Kotlin", "Copilot AI Tooling (Agents, Skills, MCP)", "Coroutines","Analytics Integration", "Bash Scripting", "Charles Proxy","Android Accessibility (a11y / TalkBack)", "Deeplink"],
+    },
+    {
+      name: "Tawk.to Live Chat SaaS",
+      description:
+        "Subscription-driven Live Chat SaaS platform, enabling real-time direct communication with integrated audio and video calling capabilities.",
+      link: "https://play.google.com/store/apps/details?id=to.tawk.android&hl=en",
+      skills: ["MQTT", "Websocket","Kotlin", "Firebase (Crashlytics, Analytics)", "Jetpack Components"],
 
     },
     {
-      name: "ExtensionKit",
+      name: "Baxta App",
       description:
-        "",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+          "Pet social networking and directory platform with location discovery, media sharing, and automated MS App Center CI/CD deployment pipelines.",
+      link: "https://www.baxtapro.com/",
+      skills: ["Koin", "Firebase Services", "Kotlin", "Jetpack Components, MS App Center"],
+
+    },
+    {
+      name: "Baash E-Sports Platform",
+      description:
+          "Mobile tournament management platform supporting team rosters, brackets, dynamic notifications, and OCR-based automated score tracking.",
+      link: "https://web.facebook.com/baashesports/",
+      skills: ["Retrofit", "Kotlin", "Dagger2", "Firebase Services"],
 
     },
   ],
