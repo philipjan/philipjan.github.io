@@ -4,6 +4,7 @@ import { siteConfig } from "../config";
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+const hasContact = siteConfig.contact && siteConfig.contact.email;
 ---
 
 <footer class="relative bg-slate-950 border-t border-slate-800">
@@ -155,6 +156,16 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                 class="text-sm text-slate-400 hover:text-slate-200 transition-colors"
               >
                 Education
+              </a>
+            )
+          }
+          {
+            hasContact && (
+              <a
+                href="#contact"
+                class="text-sm text-slate-400 hover:text-slate-200 transition-colors"
+              >
+                Contact
               </a>
             )
           }
