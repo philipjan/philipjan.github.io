@@ -1,8 +1,9 @@
 export const siteConfig = {
   name: "Philip Jan Baruis",
-  title: "Senior Android Engineer",
+  title: "Senior Android Engineer ・ Philippines",
   description: "Portfolio website of Philip Jan Baruis",
   accentColor: "#818CF8",
+  cvFile: "cv_july_8_2026_9_14pm .docx.pdf",
   social: {
     email: "philipjanbaruis@gmail.com",
     linkedin: "https://www.linkedin.com/in/philipjanb/",
@@ -11,7 +12,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Senior Android Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment pipelines, and inclusive, accessible (a11y) UI design. I have a proven track record of accelerating development velocity and optimizing technical workflows—from automating UI component generation via custom Model Context Protocol (MCP) servers, to building robust GitHub Copilot agents that streamline code review compliance.",
-  skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux, Mac)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Github Copilot (Agents/Skills/CLI/MCP)", "Local LLM Integration", "LaunchDarkly", "Gradle"],
+  skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Android Accessibility (a11y / TalkBack)", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux, Mac)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Github Copilot (Agents/Skills/CLI/MCP)", "Local LLM Integration", "LaunchDarkly", "Gradle"],
   projects: [
     {
       name: "Preauth Autopay Pipeline",
