@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Senior Android AI Engineer ・ Davao ・ Philippines",
   description: "Portfolio website of Philip Jan Baruis",
   accentColor: "#818CF8",
-  cvFile: "cv_july_8_2026_9_14pm .docx.pdf",
+  cvFile: "cv-philipjanbaruis.pdf",
   social: {
     email: "philipjanbaruis@gmail.com",
     linkedin: "https://www.linkedin.com/in/philipjanb/",
