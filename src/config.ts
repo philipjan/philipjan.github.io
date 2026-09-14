@@ -1,92 +1,101 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Philip Jan Baruis",
+  title: "Senior Android AI Engineer ・ Davao ・ Philippines",
+  description: "Portfolio website of Philip Jan Baruis",
+  accentColor: "#818CF8",
+  cvFile: "cv-philipjanbaruis.pdf",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "philipjanbaruis@gmail.com",
+    linkedin: "https://www.linkedin.com/in/philipjanb/",
+    // twitter: "https://x.com/",
+    github: "https://github.com/philipjan",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Senior Android Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment pipelines, and inclusive, accessible (a11y) UI design. I have a proven track record of accelerating development velocity and optimizing technical workflows—from automating UI component generation via custom Model Context Protocol (MCP) servers, to building robust GitHub Copilot agents that streamline code review compliance.",
+  skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Android Accessibility (a11y / TalkBack)", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux, Mac)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Github Copilot (Agents/Skills/CLI/MCP)", "Local LLM Integration", "LaunchDarkly", "Gradle"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Preauth Autopay Pipeline",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Secure payment integration and identification verification built with AI-native pipelines and engineered for complete screen-reader and keyboard accessibility.",
+      link: "https://play.google.com/store/apps/details?id=ca.bell.selfserve.mybellmobile&hl=en ",
+      skills: ["Copilot AI Tooling (Agents, Skills, MCP)", "Kotlin", "Jetpack Components", "Coroutines", "Analytics Integration", "Deeplinks", "Third Party Integration", "Android Accessibility (a11y / TalkBack)"],
+
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "FIFA World Cup 2026 Platform",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "High-scale tournament stats & offer platform built with inclusive UI design, TalkBack voiceover support, and dynamic navigation.",
+      link: "https://play.google.com/store/apps/details?id=ca.bell.selfserve.mybellmobile&hl=en",
+      skills: ["Jetpack Components", "Kotlin", "Copilot AI Tooling (Agents, Skills, MCP)", "Coroutines","Analytics Integration", "Bash Scripting", "Charles Proxy","Android Accessibility (a11y / TalkBack)", "Deeplink"],
     },
     {
-      name: "ExtensionKit",
+      name: "Tawk.to Live Chat SaaS",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Subscription-driven Live Chat SaaS platform, enabling real-time direct communication with integrated audio and video calling capabilities.",
+      link: "https://play.google.com/store/apps/details?id=to.tawk.android&hl=en",
+      skills: ["MQTT", "Websocket","Kotlin", "Firebase (Crashlytics, Analytics)", "Jetpack Components"],
+
+    },
+    {
+      name: "Baxta App",
+      description:
+          "Pet social networking and directory platform with location discovery, media sharing, and automated MS App Center CI/CD deployment pipelines.",
+      link: "https://www.baxtapro.com/",
+      skills: ["Koin", "Firebase Services", "Kotlin", "Jetpack Components, MS App Center"],
+
+    },
+    {
+      name: "Baash E-Sports Platform",
+      description:
+          "Mobile tournament management platform supporting team rosters, brackets, dynamic notifications, and OCR-based automated score tracking.",
+      link: "https://web.facebook.com/baashesports/",
+      skills: ["Retrofit", "Kotlin", "Dagger2", "Firebase Services"],
+
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Quantrics Enterprises Inc.",
+      title: "Senior Android Developer",
+      dateRange: "July 2023 - July 2026",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "AI-Native Tooling: Automated redundant development workflows by building custom MCP server integrations, featuring a Figma-to-Android Studio pipeline for UI generation and a GitLab bridge for GitHub Copilot.",
+        "High-Scale Payments: Designed a secure Autopay flow and deep-link payment pipeline deployed to thousands of North American users, deprecating manual form flows via automated ID verification to optimize checkout velocity.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Baxta",
+      title: "Android Developer",
+      dateRange: "Jun 2022 - May 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Performance & UI/UX: Overhauled the core application splash screen and startup dependencies to strictly optimize launch times, while developing the interactive detail views for the core Discover Module.",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Tawk.to",
+      title: "Android Developer",
+      dateRange: "April 2020 - May 2022",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Protocol Migration & Navigation: Successfully migrated the core real-time communication framework from legacy MQTT to highly concurrent WebSockets, and engineered a comprehensive navigation UI overhaul.",
       ],
     },
+    {
+      company: "Earlier Tech Roles (CAPSL, Bywave, Sutherland, LogimineAsia, PJ Lhuillier)",
+      title: "Android Developer | Technical, Software Support",
+      dateRange: "2015 - 2020",
+      bullets: [],
+    }
   ],
+  contact: {
+    email: "philipjanbaruis@gmail.com",
+  },
   education: [
     {
-      school: "University Name",
+      school: "University of Southern Mindanao",
       degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+      dateRange: "2011 - 2015",
+      achievements: [],
+    }
   ],
 };
