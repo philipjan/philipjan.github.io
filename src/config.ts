@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Philip Jan Baruis",
-  title: "Senior Android AI Engineer ・ Davao ・ Philippines",
+  title: "Senior Mobile AI Engineer ・ Davao ・ Philippines",
   description: "Portfolio website of Philip Jan Baruis",
   accentColor: "#818CF8",
   cvFile: "cv-philipjanbaruis.pdf",
@@ -11,8 +11,8 @@ export const siteConfig = {
     github: "https://github.com/philipjan",
   },
   aboutMe:
-    "Senior Android Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment pipelines, and inclusive, accessible (a11y) UI design. I have a proven track record of accelerating development velocity and optimizing technical workflows—from automating UI component generation via custom Model Context Protocol (MCP) servers, to building robust GitHub Copilot agents that streamline code review compliance.",
-  skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Android Accessibility (a11y / TalkBack)", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux, Mac)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Github Copilot (Agents/Skills/CLI/MCP)", "Local LLM Integration", "LaunchDarkly", "Gradle"],
+    "Senior Mobile AI Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment pipelines, and inclusive, accessible (a11y) UI design. I have a proven track record of accelerating development velocity and optimizing technical workflows—from automating UI component generation via custom Model Context Protocol (MCP) servers, to building robust GitHub Copilot agents that streamline code review compliance.",
+  skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Android Accessibility (a11y / TalkBack)", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux, Mac)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Github Copilot (Agents/Skills/CLI/MCP)", "Opencode CLI", "Local LLM Integration", "LaunchDarkly", "Gradle"],
   projects: [
     {
       name: "Preauth Autopay Pipeline",
@@ -60,8 +60,8 @@ export const siteConfig = {
       title: "Senior Android Developer",
       dateRange: "July 2023 - July 2026",
       bullets: [
-        "AI-Native Tooling: Automated redundant development workflows by building custom MCP server integrations, featuring a Figma-to-Android Studio pipeline for UI generation and a GitLab bridge for GitHub Copilot.",
-        "High-Scale Payments: Designed a secure Autopay flow and deep-link payment pipeline deployed to thousands of North American users, deprecating manual form flows via automated ID verification to optimize checkout velocity.",
+        "AI-Native Tooling: Automated redundant development workflows by building custom MCP server integrations, featuring a Figma-to-Android Studio pipeline for UI generation and a GitLab bridge for AI harness tool.",
+        "High-Scale Payments: Designed a secure Autopay flow and deep-link payment pipeline deployed to thousands of North American users, deprecating manual form flows via automated ID verification to optimize checkout velocity by 35%.",
       ],
     },
     {
