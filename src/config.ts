@@ -11,7 +11,7 @@ export const siteConfig = {
     github: "https://github.com/philipjan",
   },
   aboutMe:
-    "Senior Mobile AI Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment pipelines, and inclusive, accessible (a11y) UI design. I have a proven track record of accelerating development velocity and optimizing technical workflows—from automating UI component generation via custom Model Context Protocol (MCP) servers, to building robust GitHub Copilot agents that streamline code review compliance.",
+    "Senior Mobile AI Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment pipelines, and inclusive, accessible (a11y) UI design. I have a proven track record of accelerating development velocity and optimizing technical workflows—from automating UI component generation via MCP pipelines, to building robust AI Agents and Skills that streamline development to code review compliance.",
   skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Android Accessibility (a11y / TalkBack)", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux, Mac)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Github Copilot (Agents/Skills/CLI/MCP)", "Opencode CLI", "Local LLM Integration", "LaunchDarkly", "Gradle"],
   projects: [
     {
@@ -27,7 +27,7 @@ export const siteConfig = {
       description:
         "High-scale tournament stats & offer platform built with inclusive UI design, TalkBack voiceover support, and dynamic navigation.",
       link: "https://play.google.com/store/apps/details?id=ca.bell.selfserve.mybellmobile&hl=en",
-      skills: ["Jetpack Components", "Kotlin", "Copilot AI Tooling (Agents, Skills, MCP)", "Coroutines","Analytics Integration", "Bash Scripting", "Charles Proxy","Android Accessibility (a11y / TalkBack)", "Deeplink"],
+      skills: ["Jetpack Components", "Kotlin", "AI Tooling (Agents, Skills, MCP)", "Coroutines","Analytics Integration", "Bash Scripting", "Charles Proxy","Android Accessibility (a11y / TalkBack)", "Deeplinks"],
     },
     {
       name: "Tawk.to Live Chat SaaS",
@@ -60,7 +60,7 @@ export const siteConfig = {
       title: "Senior Android Developer",
       dateRange: "July 2023 - July 2026",
       bullets: [
-        "AI-Native Tooling: Automated redundant development workflows by building custom MCP server integrations, featuring a Figma-to-Android Studio pipeline for UI generation and a GitLab bridge for AI harness tool.",
+        "AI-Native Tooling: Automated redundant development workflows by integrating MCP, custom scripts, featuring a Figma-to-Android Studio MCP for UI generation. AI Agents, Skills for efficient DevEx from development to merge request workflow.",
         "High-Scale Payments: Designed a secure Autopay flow and deep-link payment pipeline deployed to thousands of North American users, deprecating manual form flows via automated ID verification to optimize checkout velocity by 35%.",
       ],
     },
