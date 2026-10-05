@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Senior Mobile AI Engineer ・ Davao ・ Philippines",
   description: "Portfolio website of Philip Jan Baruis",
   accentColor: "#818CF8",
-  cvFile: "cv-philipjanbaruis.pdf",
+  cvFile: "resume-philipjanbaruis-2.pdf",
   social: {
     email: "philipjanbaruis@gmail.com",
     linkedin: "https://www.linkedin.com/in/philipjanb/",
@@ -11,8 +11,8 @@ export const siteConfig = {
     github: "https://github.com/philipjan",
   },
   aboutMe:
-    "Senior Mobile AI Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment pipelines, and inclusive, accessible (a11y) UI design. I have a proven track record of accelerating development velocity and optimizing technical workflows—from automating UI component generation via MCP pipelines, to building robust AI Agents and Skills that streamline development to code review compliance.",
-  skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Android Accessibility (a11y / TalkBack)", "Compose Multiplatform", "Jetpack Compose", "Ktor", "Spring Boot", "Automation Scripting (Linux, Mac)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Github Copilot (Agents/Skills/CLI/MCP)", "Opencode CLI", "Local LLM Integration", "LaunchDarkly", "Gradle"],
+    "Senior Mobile AI Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment pipelines, and inclusive, accessible (a11y) UI design. I have a proven track record of accelerating development velocity and optimizing technical workflows from automating UI component generation, to building robust AI Agents and Skills that streamline development to code review compliance.",
+  skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Swift", "Android Accessibility (a11y / TalkBack)", "SwiftUI", "Compose Multiplatform", "Jetpack Compose", "UIKit", "Ktor", "Spring Boot", "Automation Scripting (Linux, Mac)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Github Copilot (Agents/Skills/CLI/MCP)", "Opencode CLI", "Local LLM Integration", "LaunchDarkly", "Gradle"],
   projects: [
     {
       name: "Preauth Autopay Pipeline",
