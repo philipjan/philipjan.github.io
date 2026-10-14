@@ -1,101 +1,246 @@
 export const siteConfig = {
-  name: "Philip Jan Baruis",
-  title: "Senior Mobile AI Engineer ・ Davao ・ Philippines",
-  description: "Portfolio website of Philip Jan Baruis",
-  accentColor: "#818CF8",
-  cvFile: "resume-philipjanbaruis-2.pdf",
-  social: {
-    email: "philipjanbaruis@gmail.com",
-    linkedin: "https://www.linkedin.com/in/philipjanb/",
-    // twitter: "https://x.com/",
-    github: "https://github.com/philipjan",
-  },
-  aboutMe:
-    "Senior Mobile AI Engineer with 9 years of experience specializing in native mobile architectures, high-scale payment pipelines, and inclusive, accessible (a11y) UI design. I have a proven track record of accelerating development velocity and optimizing technical workflows from automating UI component generation, to building robust AI Agents and Skills that streamline development to code review compliance.",
-  skills: ["Kotlin", "Java", "Kotlin Multiplatform", "Swift", "Android Accessibility (a11y / TalkBack)", "SwiftUI", "Compose Multiplatform", "Jetpack Compose", "UIKit", "Ktor", "Spring Boot", "Automation Scripting (Linux, Mac)", "Sonarqube", "Jenkins", "Docker", "Firebase Services", "Github Copilot (Agents/Skills/CLI/MCP)", "Opencode CLI", "Local LLM Integration", "LaunchDarkly", "Gradle"],
-  projects: [
-    {
-      name: "Preauth Autopay Pipeline",
-      description:
-        "Secure payment integration and identification verification built with AI-native pipelines and engineered for complete screen-reader and keyboard accessibility.",
-      link: "https://play.google.com/store/apps/details?id=ca.bell.selfserve.mybellmobile&hl=en ",
-      skills: ["Copilot AI Tooling (Agents, Skills, MCP)", "Kotlin", "Jetpack Components", "Coroutines", "Analytics Integration", "Deeplinks", "Third Party Integration", "Android Accessibility (a11y / TalkBack)"],
-
+    name: "Philip Jan Baruis",
+    title: "Senior Android & AI Engineer | Kotlin, KMP & AI-Native Tooling",
+    description: "Portfolio of Philip Jan Baruis, Senior Android & AI Engineer. Kotlin, Jetpack Compose, Kotlin Multiplatform, payment pipelines scaled to 9M+ users, and AI-native developer tooling using MCP, agents, and LLM workflows.",
+    accentColor: "#818CF8",
+    cvFile: "resume-philipjanbaruis-2.pdf",
+    social: {
+        email: "philipjanbaruis@gmail.com",
+        linkedin: "https://www.linkedin.com/in/philipjanb/",
+        // twitter: "https://x.com/",
+        // github: "https://github.com/philipjan",
     },
-    {
-      name: "FIFA World Cup 2026 Platform",
-      description:
-        "High-scale tournament stats & offer platform built with inclusive UI design, TalkBack voiceover support, and dynamic navigation.",
-      link: "https://play.google.com/store/apps/details?id=ca.bell.selfserve.mybellmobile&hl=en",
-      skills: ["Jetpack Components", "Kotlin", "AI Tooling (Agents, Skills, MCP)", "Coroutines","Analytics Integration", "Bash Scripting", "Charles Proxy","Android Accessibility (a11y / TalkBack)", "Deeplinks"],
+    aboutMe:
+        "I build high-scale Android architectures and AI-native developer tooling. Over 9 years, I have shipped secure payment pipelines to 9M+ users, increased checkout velocity by 35%, and reclaimed 2-3 engineering hours per week by building custom MCP servers and AI agents. I focus on the parts of mobile engineering that compound: clean architecture, accessibility, real-time reliability, CI/CD quality gates, and developer workflow automation.",
+    skills: [
+        "Kotlin",
+        "Jetpack Compose",
+        "Kotlin Multiplatform",
+        "Compose Multiplatform",
+        "Coroutines",
+        "Flow",
+        "Clean Architecture",
+        "MVVM",
+        "MVI",
+        "Koin",
+        "Hilt",
+        "Room",
+        "SQLDelight",
+        "Android Accessibility (a11y / TalkBack)",
+        "MCP",
+        "GitHub Copilot Agents/Skills",
+        "LangChain",
+        "Pydantic AI",
+        "OpenAI Agents SDK",
+        "Local LLMs",
+        "Python",
+        "FastAPI",
+        "Ktor",
+        "Spring Boot",
+        "REST APIs",
+        "WebSockets",
+        "Payment Integration",
+        "Firebase",
+        "GitHub Actions",
+        "Jenkins",
+        "SonarQube",
+        "Docker",
+        "Gradle",
+        "Linux",
+        "Bash",
+        "LaunchDarkly",
+        "JUnit",
+        "Espresso",
+        "Compose UI Testing",
+    ],
+    projects: [
+        {
+            name: "Secure Autopay & ID Verification Pipeline",
+            description:
+                "Problem: manual credit/debit form flows created checkout friction for recurring subscribers. Action: extended the core payment flow with Interac-backed Autopay, deep links, and third-party automated ID verification. Result: increased checkout velocity by 35% and eliminated manual data-entry errors across 9M+ active users.",
+            link: "https://play.google.com/store/apps/details?id=ca.bell.selfserve.mybellmobile",
+            skills: [
+                "Kotlin",
+                "Jetpack Compose",
+                "Coroutines",
+                "Payment Integration",
+                "Deep Links",
+                "Third-Party ID Verification",
+                "Android Accessibility (a11y / TalkBack)",
+                "Analytics Integration",
+            ],
+        },
+        {
+            name: "FIFA World Cup 2026 Event Surface",
+            description:
+                "Problem: a high-traffic event campaign required accessible navigation, real-time offer surfacing, and reliable analytics tracking. Action: shipped tournament stats, offer modules, deep links, and TalkBack-supported navigation. Result: maintained accessible user flows during peak event traffic while supporting analytics-driven campaign measurement.",
+            link: "https://play.google.com/store/apps/details?id=ca.bell.selfserve.mybellmobile",
+            skills: [
+                "Kotlin",
+                "Jetpack Compose",
+                "Coroutines",
+                "Deep Links",
+                "Analytics Integration",
+                "Android Accessibility (a11y / TalkBack)"
+            ],
+        },
+        {
+            name: "MCP / AI Developer Tooling",
+            description:
+                "Problem: engineers lost repeated hours translating Figma designs into Jetpack Compose code and writing manual PR summaries. Action: built a Figma-to-Android Studio MCP pipeline and custom AI agents that generate structured Jira/GitLab PR summaries from code diffs. Result: reclaimed 2-3 engineering hours per week and supported raising SonarQube quality gates from Bronze to Silver.",
+            link: "#engineering-notes",
+            skills: [
+                "MCP",
+                "GitHub Copilot Agents/Skills",
+                "Jetpack Compose",
+                "Kotlin",
+                "Python",
+                "FastAPI",
+                "Prompt Engineering",
+                "CI/CD",
+                "Code Review Automation",
+            ],
+        },
+        {
+            name: "Tawk.to Android Live Chat",
+            description:
+                "Problem: legacy MQTT communication created broker bottlenecks under concurrent chat sessions. Action: re-architected the real-time communication layer to WebSockets, consolidated admin navigation, and introduced scenario-based tests around critical message delivery flows. Result: stabilized message delivery under high concurrency and reduced recurring runtime regressions.",
+            link: "https://play.google.com/store/apps/details?id=to.tawk.android",
+            skills: [
+                "Kotlin",
+                "WebSockets",
+                "MQTT",
+                "Real-Time Communication",
+                "Firebase Crashlytics",
+                "Firebase Analytics",
+                "Scenario-Based Testing",
+                "Navigation Refactoring",
+            ],
+        },
+        {
+            name: "Baxta Android App",
+            description:
+                "Problem: cold-start flicker, continuous-scroll video instability, and manual build waits slowed release confidence. Action: re-architected splash/startup dependencies off the UI thread, shipped a TikTok-style vertical reels feed with lifecycle and memory controls, built a Google Maps pet directory, and automated MS App Center QA/Play Store pipelines. Result: delivered a zero-flicker cold start, reduced playback crashes during scrolling, and eliminated manual build generation wait times.",
+            link: "https://www.baxtapro.com/",
+            skills: [
+                "Kotlin",
+                "Jetpack Compose",
+                "Koin",
+                "Firebase Services",
+                "Google Maps SDK",
+                "Video Lifecycle Management",
+                "MS App Center",
+                "CI/CD",
+            ],
+        },
+        {
+            name: "Baash Esports Platform",
+            description:
+                "Problem: manual tournament matchmaking could not scale across multiple competitive titles. Action: replaced manual pairing flows with a custom Round Robin engine and built an FCM-powered in-app notification hub for round results, match invitations, and leaderboard state changes. Result: automated real-time sequence tracking across 5 major titles: Mobile Legends, Arena of Valor, Brawl Stars, Call of Duty Mobile, and Clash Royale.",
+            link: "https://web.facebook.com/baashesports/",
+            skills: [
+                "Kotlin",
+                "Retrofit",
+                "Dagger2",
+                "Firebase Cloud Messaging",
+                "Tournament Matchmaking",
+                "Real-Time Notifications",
+            ],
+        },
+        {
+            name: "F45 Android",
+            description:
+                "Problem: F45 required synchronized hardware display control and client diet-tracking workflows. Action: engineered F45 Power as a local-network Android remote controller using UDP for time synchronization and REST APIs for content delivery, plus F45 Challenge for diet-plan tracking. Also implemented ProGuard/R8 obfuscation and JUnit edge-case suites for production safety. Result: shipped hardware-synced and consumer-facing Android applications with stronger release-build protection and reduced runtime crash risk.",
+            link: "",
+            skills: [
+                "Java",
+                "Android SDK",
+                "UDP",
+                "REST APIs",
+                "ProGuard",
+                "R8",
+                "JUnit",
+                "Local Network Sync",
+            ],
+        },
+    ],
+    experience: [
+        {
+            company: "Quantrics Enterprises Inc.",
+            title: "Senior Android Engineer",
+            dateRange: "July 2023 - August 2026",
+            location: "Remote",
+            bullets: [
+                "Extended the core payment flow with secure Interac-backed Autopay, deploying new billing features to 9M+ active users across Canada and eliminating manual retry friction for recurring subscribers.",
+                "Increased checkout velocity by 35% and eliminated manual data-entry errors by integrating third-party automated ID verification, deprecating legacy manual form flows for credit/debit transactions.",
+                "Reclaimed 2-3 engineering hours per week by building custom AI agents that auto-generate Jira/GitLab PR summaries and an MCP pipeline that converts Figma design context into Jetpack Compose UI components.",
+                "Raised codebase health from Bronze tier (50-60%) to Silver tier (70-75%) SonarQube quality gate, enforcing stricter PR standards across 10+ modules.",
+                "Partnered with Release Train Engineers on bi-weekly Play Store releases and drove post-mortem RCAs that reduced repeat regressions by 50%.",
+            ],
+        },
+        {
+            company: "Baxta",
+            title: "Android Developer",
+            dateRange: "June 2022 - May 2023",
+            location: "Remote · Australia",
+            bullets: [
+                "Re-architected the application splash screen and startup sequence, eliminating UI-thread blocking during dependency loading to deliver a zero-flicker cold start.",
+                "Shipped a TikTok-style vertical reels feed with Following and For You streams, managing video-player lifecycles and memory limits to prevent playback crashes during continuous scrolling.",
+                "Implemented a pet-friendly map directory using Google Maps SDK with search, filters, marker-synced bottom sheet, and implicit intent routing to native navigation and dialer apps.",
+                "Automated MS App Center CI/CD pipelines for distinct QA and Play Store builds using Android build types and product flavors, eliminating manual build-generation wait times.",
+            ],
+        },
+        {
+            company: "Tawk.to",
+            title: "Android Developer",
+            dateRange: "April 2020 - May 2022",
+            location: "Remote · United States",
+            bullets: [
+                "Re-architected the real-time communication layer from MQTT to WebSockets, eliminating broker bottlenecks and stabilizing message delivery under high concurrency.",
+                "Consolidated fragmented admin navigation into a single path structure, removing redundant screens and reducing the number of taps required for common administrative tasks.",
+                "Eliminated recurring runtime regressions in the live chat client by introducing scenario-based test coverage across critical message delivery flows.",
+            ],
+        },
+        {
+            company: "CAPSL",
+            title: "Android Developer · Contract",
+            dateRange: "December 2019 - February 2020",
+            location: "Remote · Hong Kong",
+            bullets: [
+                "Replaced manual matchmaking bottlenecks with a custom Round Robin engine, automating pairing logic and real-time sequence tracking across 5 major competitive titles: Mobile Legends, Arena of Valor, Brawl Stars, Call of Duty Mobile, and Clash Royale.",
+                "Built an in-app notification hub powered by Firebase Cloud Messaging to push round results, match invitations, and leaderboard state changes to players in real time.",
+            ],
+        },
+        {
+            company: "Bywave",
+            title: "Android Developer",
+            dateRange: "June 2017 - December 2019",
+            location: "Davao City, Philippines",
+            bullets: [
+                "Engineered F45 Power, a local-network Android TV remote controller that synchronized timing across a mini-LED matrix display using UDP while fetching scheduling content via REST APIs.",
+                "Developed F45 Challenge, a diet-planning Android application that synchronized user intake logs with F45-provided nutritional plans through REST APIs.",
+                "Implemented ProGuard/R8 obfuscation for release builds and authored JUnit edge-case suites, preventing runtime crashes and protecting proprietary code in production.",
+            ],
+        },
+        {
+            company: "Sutherland / LogimineAsia / PJ Lhuillier",
+            title: "Early Career: IT & Infrastructure Support",
+            dateRange: "2015 - 2017",
+            location: "Philippines",
+            bullets: [
+                "Provided foundational infrastructure support, Linux environment navigation, and network troubleshooting across enterprise environments before transitioning fully into native Android engineering.",
+            ],
+        }
+    ],
+    contact: {
+        email: "philipjanbaruis@gmail.com",
     },
-    {
-      name: "Tawk.to Live Chat SaaS",
-      description:
-        "Subscription-driven Live Chat SaaS platform, enabling real-time direct communication with integrated audio and video calling capabilities.",
-      link: "https://play.google.com/store/apps/details?id=to.tawk.android&hl=en",
-      skills: ["MQTT", "Websocket","Kotlin", "Firebase (Crashlytics, Analytics)", "Jetpack Components"],
-
-    },
-    {
-      name: "Baxta App",
-      description:
-          "Pet social networking and directory platform with location discovery, media sharing, and automated MS App Center CI/CD deployment pipelines.",
-      link: "https://www.baxtapro.com/",
-      skills: ["Koin", "Firebase Services", "Kotlin", "Jetpack Components, MS App Center"],
-
-    },
-    {
-      name: "Baash E-Sports Platform",
-      description:
-          "Mobile tournament management platform supporting team rosters, brackets, dynamic notifications, and OCR-based automated score tracking.",
-      link: "https://web.facebook.com/baashesports/",
-      skills: ["Retrofit", "Kotlin", "Dagger2", "Firebase Services"],
-
-    },
-  ],
-  experience: [
-    {
-      company: "Quantrics Enterprises Inc.",
-      title: "Senior Android Developer",
-      dateRange: "July 2023 - July 2026",
-      bullets: [
-        "AI-Native Tooling: Automated redundant development workflows by integrating MCP, custom scripts, featuring a Figma-to-Android Studio MCP for UI generation. AI Agents, Skills for efficient DevEx from development to merge request workflow.",
-        "High-Scale Payments: Designed a secure Autopay flow and deep-link payment pipeline deployed to thousands of North American users, deprecating manual form flows via automated ID verification to optimize checkout velocity by 35%.",
-      ],
-    },
-    {
-      company: "Baxta",
-      title: "Android Developer",
-      dateRange: "Jun 2022 - May 2023",
-      bullets: [
-        "Performance & UI/UX: Overhauled the core application splash screen and startup dependencies to strictly optimize launch times, while developing the interactive detail views for the core Discover Module.",
-      ],
-    },
-    {
-      company: "Tawk.to",
-      title: "Android Developer",
-      dateRange: "April 2020 - May 2022",
-      bullets: [
-        "Protocol Migration & Navigation: Successfully migrated the core real-time communication framework from legacy MQTT to highly concurrent WebSockets, and engineered a comprehensive navigation UI overhaul.",
-      ],
-    },
-    {
-      company: "Earlier Tech Roles (CAPSL, Bywave, Sutherland, LogimineAsia, PJ Lhuillier)",
-      title: "Android Developer | Technical, Software Support",
-      dateRange: "2015 - 2020",
-      bullets: [],
-    }
-  ],
-  contact: {
-    email: "philipjanbaruis@gmail.com",
-  },
-  education: [
-    {
-      school: "University of Southern Mindanao",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2011 - 2015",
-      achievements: [],
-    }
-  ],
+    education: [
+        {
+            school: "University of Southern Mindanao",
+            degree: "Bachelor of Science in Computer Science",
+            dateRange: "2011 - 2015",
+            achievements: [],
+        }
+    ],
 };
