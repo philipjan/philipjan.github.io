@@ -8,7 +8,7 @@ export const siteConfig = {
         email: "philipjanbaruis@gmail.com",
         linkedin: "https://www.linkedin.com/in/philipjanb/",
         // twitter: "https://x.com/",
-        // github: "https://github.com/philipjan",
+        github: "https://github.com/philipjan",
     },
     aboutMe:
         "I build high-scale Android architectures and AI-native developer tooling. Over 9 years, I have shipped secure payment pipelines to 9M+ users, increased checkout velocity by 35%, and reclaimed 2-3 engineering hours per week by building custom MCP servers and AI agents. I focus on the parts of mobile engineering that compound: clean architecture, accessibility, real-time reliability, CI/CD quality gates, and developer workflow automation.",
