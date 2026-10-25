@@ -3,7 +3,7 @@ export const siteConfig = {
     title: "Senior Android & AI Engineer | Kotlin, KMP & AI-Native Tooling",
     description: "Portfolio of Philip Jan Baruis, Senior Android & AI Engineer. Kotlin, Jetpack Compose, Kotlin Multiplatform, payment pipelines scaled to 9M+ users, and AI-native developer tooling using MCP, agents, and LLM workflows.",
     accentColor: "#818CF8",
-    cvFile: "resume-philipjanbaruis-2.pdf",
+    cvFile: "PhilipJan_Baruis_AndroidEngineer.pdf",
     social: {
         email: "philipjanbaruis@gmail.com",
         linkedin: "https://www.linkedin.com/in/philipjanb/",
